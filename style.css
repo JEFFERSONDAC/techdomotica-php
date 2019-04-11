@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    border: 1px;
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+}
+
+.input-field {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
