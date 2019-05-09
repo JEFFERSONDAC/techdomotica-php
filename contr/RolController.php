@@ -4,11 +4,13 @@ require_once "../model/Rol.php";
 
 class RolController {
 
-  public function __construct() {
+    public function __construct() {
         if(isset($_GET["action"])) {
             if(method_exists($this, $_GET["action"])) {
-                $accion = $_GET["action"];
-                $this->$accion();
+                $this->$_GET["action"]();
+                if(session_status() != PHP_SESSION_ACTIVE) {
+                    session_start();
+                }
             }
             else{ 
                 $this->giveError();

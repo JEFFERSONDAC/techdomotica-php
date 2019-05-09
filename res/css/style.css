@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    color: rgb(209, 209, 209);
+    background-color: rgb(63, 63, 63);
+}
+
+table {
+    width: 100%;
+    border: 1px;
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+}
+
+
+.input-field {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: rgb(48, 48, 48);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(209, 209, 209);
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+input[type="text"], input[type="number"], input[type="password"], input[type="email"] {
+    padding: 7px;
+    background-color: inherit;
+    border: 1px solid rgb(209, 209, 209);
+    color: rgb(209, 209, 209);
+    transition: 0.2s ease-in-out;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    box-shadow: 0px 0px 7px 5px rgb(209, 209, 209);
+    color: rgb(236, 236, 236);
+}
+
+*::selection {
+    background-color: #FFF;
+    color: #000;
+}
+
+button.warning, input[type="submit"].warning, a.warning {
+    padding: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(236, 79, 79);
+    color: rgb(236, 79, 79);
+    background-color: inherit;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+}
+
+button.warning:hover, input[type="submit"].warning:hover, a.warning:hover {
+    color: #000;
+    background-color: rgb(236, 79, 79);
+    cursor: pointer;
+}
+
+button.success, input[type="submit"].success, a.success {
+    padding: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(92, 236, 79);
+    color: rgb(92, 236, 79);
+    background-color: inherit;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+}
+
+button.success:hover, input[type="submit"].success:hover, a.success:hover {
+    color: #000;
+    background-color: rgb(92, 236, 79);
+    cursor: pointer;
+}
+
+button.link, input[type="submit"].link, a.link {
+    padding: 14px;
+    font-weight: bold;
+    border: 1px solid rgb(79, 152, 236);
+    color: rgb(79, 152, 236);
+    background-color: inherit;
+    border-radius: 12px;
+    transition: 0.2s ease-in-out;
+}
+
+button.link:hover, input[type="submit"].link:hover, a.link:hover {
+    color: #000;
+    background-color: rgb(79, 152, 236);
+    cursor: pointer;
+}
+
+select, option {
+    padding: 10px;
+    border-radius: 12px;
+    background-color: inherit;
+    border: 1px solid rgb(209, 209, 209);
+    color: rgb(209, 209, 209);
+}
